@@ -1,0 +1,74 @@
+
+body{
+
+  background-image: url(Artboard_11x_1.png);
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+header h4{
+ font-size: 6vh;
+ margin: 0;
+ font-family: 'M Ponderosa', sans-serif;
+ color: rgb(255, 255, 218);              
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: -44px;
+}
+
+nav ul li a{
+  margin: 0 8vh;
+  padding: 0;
+  font-size: 2vh;
+  text-decoration: none;
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.content h2{
+  padding-left: 6vh;
+  padding-bottom: 0vh;
+  font-size: 8vh;
+  font-family: 'Cyber Alert', sans-serif;
+  position: relative;
+  bottom: -10vh;
+  color: gold;
+}
+
+.content h1{
+padding-left: 11vh;
+font-size: 14vh;
+font-family: 'Aexir', sans-serif;
+color: white;
+}
+
+.content p{
+  padding-left: 7vh;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: -7vh;
+  font-size: 13px;
+  margin: 31px;
+  color: white;
+}
+
+.button{
+  font-family: 'Aexir', sans-serif;
+  border-radius: 15vh;
+  position: relative;
+  right: -15vh;
+  background-color: rgb(243, 243, 198);
+  top: -6vh;
+  padding: 2vh;
+}
+.button a{
+text-decoration: none;
+}
